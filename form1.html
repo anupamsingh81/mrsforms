@@ -1,0 +1,37 @@
+
+<html>
+<head>
+<title > Forms1 </title>
+<script type="text/javascript" src= "script/jquery-3.1.0.min.js">
+// https://www.formget.com/jquery-get-value-of-input/
+// https://techjoomla.com/blog/beyond-joomla/jquery-basics-getting-values-of-form-inputs-using-jquery.html
+$('#sendButton1_1_1').on('click', function(e) {
+  var x =  $('input[name="twitKey"]').val(); //iphone
+	var y = $('input[name="twitLoc"]').val(); //iphone
+	
+	alert( "x is" +x+ "y is"+y)
+	
+});
+</script>
+
+<body>
+
+<form id="Task1_1_1" action="">
+<pre>
+    Keywords: <input type="text" name="twitKey" value="iphone"><br><br> 
+    Coordinates: <input type="text" name="twitLoc" value=""><br> <br> 
+    Scope: <input type="text" name="scope" value="10" > km<br> <br>
+    <button id="sendButton1_1_1">Search</button>
+	</pre>
+</form>
+</pre>
+</form>
+
+
+
+
+
+
+</body>
+
+</html>
